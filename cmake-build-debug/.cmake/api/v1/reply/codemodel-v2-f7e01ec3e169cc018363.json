@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Aplicatie_gestiune_componente_PC",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Aplicatie_gestiune_componente_PC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Aplicatie_gestiune_componente_PC-Debug-700dcc923a4ced86a911.json",
+					"name" : "Aplicatie_gestiune_componente_PC",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/EON/Desktop/faculta/POO/Aplicatie gestiune componente PC/Aplicatie-gestiune-componente-PC/cmake-build-debug",
+		"source" : "C:/Users/EON/Desktop/faculta/POO/Aplicatie gestiune componente PC/Aplicatie-gestiune-componente-PC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

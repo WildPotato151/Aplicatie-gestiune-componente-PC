@@ -1,0 +1,3 @@
+C:/Users/EON/Desktop/faculta/POO/Aplicatie gestiune componente PC/Aplicatie-gestiune-componente-PC/cmake-build-debug/CMakeFiles/Aplicatie_gestiune_componente_PC.dir
+C:/Users/EON/Desktop/faculta/POO/Aplicatie gestiune componente PC/Aplicatie-gestiune-componente-PC/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/EON/Desktop/faculta/POO/Aplicatie gestiune componente PC/Aplicatie-gestiune-componente-PC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
