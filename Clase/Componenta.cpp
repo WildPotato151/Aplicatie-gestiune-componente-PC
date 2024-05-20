@@ -117,3 +117,38 @@ bool Componenta::selecteazaStockComponenta() {
     }
     return optiune;
 }
+
+istream& operator>>(istream& is, Componenta& componenta) {
+
+    string input;
+    float input_float;
+
+    cout << endl;
+    componenta.getTip() = Componenta::selecteazaTipComponenta();
+
+    cout<<"Introdu brand-ul componentei: ";
+    is.ignore();
+    getline(is, componenta.brand);
+
+    cout<< "Introdu modelul componentei: ";
+    getline(is, componenta.model);
+
+    cout<< "Introdu specificatiile componentei: ";
+    getline(is, componenta.specs);
+
+    cout<< endl<<"Introdu pretul componentei(RON): ";
+    is>> input;
+    input_float = stof(input);
+    componenta.pret = input_float;
+
+    cout<< endl;
+    componenta.stock = Componenta::selecteazaStockComponenta();
+
+    return is;
+}
+
+ostream& operator<<(ostream& os, Componenta& componenta) {
+
+    os << componenta.Info();
+    return os;
+}

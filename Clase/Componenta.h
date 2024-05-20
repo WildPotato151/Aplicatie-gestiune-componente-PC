@@ -49,6 +49,10 @@ public:
     static string selecteazaTipComponenta();
     static bool selecteazaStockComponenta();
 
+    friend istream& operator>>(istream& is, Componenta& componenta);
+    friend ostream& operator<<(ostream& os, Componenta& componenta);
+
+
 
     string Info() const;
 };
