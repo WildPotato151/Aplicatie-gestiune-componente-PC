@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Aplicatie_gestiune_componente_PC main.cpp
         Clase/Componenta.cpp
-        Clase/Componenta.h)
+        Clase/Componenta.h
+        Clase/Client.cpp
+        Clase/Client.h)

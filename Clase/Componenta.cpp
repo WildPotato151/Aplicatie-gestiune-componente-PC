@@ -1,5 +1,5 @@
 //
-// Created by EON on 5/20/2024.
+//
 //
 
 #include "Componenta.h"

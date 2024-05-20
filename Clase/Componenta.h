@@ -1,11 +1,11 @@
 //
-// Created by EON on 5/20/2024.
+//
 //
 
 #ifndef COMPONENTA_H
 #define COMPONENTA_H
 
-#include "Componenta.h"
+
 #include <iostream>
 #include <string>
 #include <vector>
