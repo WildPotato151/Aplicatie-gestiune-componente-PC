@@ -33,6 +33,8 @@ string Componenta::Info() const {
     info += "Pret: " + to_string(pret) + "\n";
     info += "In stock: " + stock_string + "\n";
 
+    return info;
+
 }
 
 string Componenta::ConversieToString_FisierCSV() const {
@@ -124,7 +126,7 @@ istream& operator>>(istream& is, Componenta& componenta) {
     float input_float;
 
     cout << endl;
-    componenta.getTip() = Componenta::selecteazaTipComponenta();
+    componenta.tip = Componenta::selecteazaTipComponenta();
 
     cout<<"Introdu brand-ul componentei: ";
     is.ignore();
