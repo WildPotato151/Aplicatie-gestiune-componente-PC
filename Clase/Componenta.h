@@ -24,11 +24,14 @@ private:
     float pret;
     bool stock;
 
-    
+
 
 public:
     Componenta(int id = -1, string tip = "N/A", string brand = "N/A", string model = "N/A", string specs = "N/A", float pret = -1, bool stock = false );
     ~Componenta();
+
+    Componenta& operator=(const Componenta& other);
+    Componenta(const Componenta& other);
 
     int getID() const {return id;}
     string getTip() const {return tip;}

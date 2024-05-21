@@ -21,6 +21,19 @@ Componenta::Componenta(int id, string tip, string brand, string model, string sp
 }
 Componenta::~Componenta() {}
 
+Componenta& Componenta::operator=(const Componenta& other) {
+    if (this != &other) {
+        this->id = other.id;
+        this->tip = other.tip;
+        this->brand = other.brand;
+        this->model = other.model;
+        this->specs = other.specs;
+        this->pret = other.pret;
+        this->stock = other.stock;
+    }
+    return *this;
+}
+
 string Componenta::Info() const {
 
     string stock_string = (stock ? "Da" : "Nu");

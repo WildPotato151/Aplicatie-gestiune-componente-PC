@@ -7,4 +7,6 @@ add_executable(Aplicatie_gestiune_componente_PC main.cpp
         Clase/Componenta.cpp
         Clase/Componenta.h
         Clase/Client.cpp
-        Clase/Client.h)
+        Clase/Client.h
+        Clase/AdministrareComponenta.cpp
+        Clase/AdministrareComponenta.h)
