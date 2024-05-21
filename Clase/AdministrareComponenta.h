@@ -8,6 +8,7 @@
 #include <iostream>
 #include <string>
 #include "Componenta.h"
+#include "Validari.h"
 
 using namespace std;
 

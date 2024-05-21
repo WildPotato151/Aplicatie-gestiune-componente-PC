@@ -1,8 +1,9 @@
 //
-// 
+//
 //
 
 #include "AdministrareComponenta.h"
+#include "Validari.h"
 
 #include <fstream>
 #include <iostream>
@@ -113,12 +114,18 @@ vector<Componenta> AdministrareComponenta::CautaComponenta(string tip, string br
     int nrComponente = 0, index = 1;
     vector<Componenta> componente = GetComponente(nrComponente);
 
+
+    string brandGasit = Validari::toLowercase(brand);
+    string modelGasit = Validari::toLowercase(model);
+
+
+
     for (Componenta componenta : componente) {
         if (index > nrComponente) break;
 
         if ((!tip.empty() && componenta.getTip() != tip) ||
-            (!brand.empty() && componenta.getBrand() != brand) ||
-            (!model.empty() && componenta.getModel() != model) ||
+            (!brand.empty() && (brandGasit.find(brandGasit)) == -1) ||
+            (!model.empty() && (modelGasit.find(modelGasit)) == -1) ||
             (pretMin > 0 && stof(componenta.getPret()) < pretMin) ||
             (pretMax > 0 && stof(componenta.getPret()) > pretMax) ||
             (stock && !componenta.esteStock()) ||

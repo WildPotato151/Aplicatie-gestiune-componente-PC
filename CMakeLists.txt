@@ -9,4 +9,5 @@ add_executable(Aplicatie_gestiune_componente_PC main.cpp
         Clase/Client.cpp
         Clase/Client.h
         Clase/AdministrareComponenta.cpp
-        Clase/AdministrareComponenta.h)
+        Clase/AdministrareComponenta.h
+        Clase/Validari.h)
