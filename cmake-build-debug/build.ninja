@@ -73,6 +73,12 @@ build CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/AdministrareComponen
   OBJECT_DIR = CMakeFiles\Aplicatie_gestiune_componente_PC.dir
   OBJECT_FILE_DIR = CMakeFiles\Aplicatie_gestiune_componente_PC.dir\Clase
 
+build CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/Cont.cpp.obj: CXX_COMPILER__Aplicatie_gestiune_componente_PC_unscanned_Debug C$:/Users/EON/Desktop/faculta/POO/Aplicatie$ gestiune$ componente$ PC/Aplicatie-gestiune-componente-PC/Clase/Cont.cpp || cmake_object_order_depends_target_Aplicatie_gestiune_componente_PC
+  DEP_FILE = CMakeFiles\Aplicatie_gestiune_componente_PC.dir\Clase\Cont.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aplicatie_gestiune_componente_PC.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aplicatie_gestiune_componente_PC.dir\Clase
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Aplicatie_gestiune_componente_PC
@@ -81,7 +87,7 @@ build CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/AdministrareComponen
 #############################################
 # Link the executable Aplicatie_gestiune_componente_PC.exe
 
-build Aplicatie_gestiune_componente_PC.exe: CXX_EXECUTABLE_LINKER__Aplicatie_gestiune_componente_PC_Debug CMakeFiles/Aplicatie_gestiune_componente_PC.dir/main.cpp.obj CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/Componenta.cpp.obj CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/Client.cpp.obj CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/AdministrareComponenta.cpp.obj
+build Aplicatie_gestiune_componente_PC.exe: CXX_EXECUTABLE_LINKER__Aplicatie_gestiune_componente_PC_Debug CMakeFiles/Aplicatie_gestiune_componente_PC.dir/main.cpp.obj CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/Componenta.cpp.obj CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/Client.cpp.obj CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/AdministrareComponenta.cpp.obj CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/Cont.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Aplicatie_gestiune_componente_PC.dir
