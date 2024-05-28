@@ -12,4 +12,6 @@ add_executable(Aplicatie_gestiune_componente_PC main.cpp
         Clase/AdministrareComponenta.h
         Clase/Validari.h
         Clase/Cont.cpp
-        Clase/Cont.h)
+        Clase/Cont.h
+        Clase/AdministrareConturi.cpp
+        Clase/AdministrareConturi.h)

@@ -106,3 +106,13 @@ string Cont::selecteazaTipCont() {
 
     return tip_cont;
 }
+
+Cont& Cont::operator=(const Cont& other) {
+    if(this != &other) {
+        this->email = other.email;
+        this->parola = other.parola;
+        this->tip_cont = other.tip_cont;
+    }
+
+    return *this;
+}

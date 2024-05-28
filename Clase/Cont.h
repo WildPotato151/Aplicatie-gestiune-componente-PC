@@ -32,6 +32,9 @@ public:
     Cont(int _ignore_, string linieFisier);
     ~Cont();
 
+    Cont& operator=(const Cont& other);
+    Cont(const Cont& other);
+
     string getEmail() const { return email; }
     string getParola() const { return parola; }
     string getTipCont() const { return tip_cont; }
