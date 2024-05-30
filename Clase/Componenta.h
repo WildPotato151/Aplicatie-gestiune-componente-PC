@@ -24,6 +24,16 @@ private:
     float pret;
     bool stock;
 
+    int ID = 0;
+    int TIP = 1;
+    int BRAND = 2;
+    int MODEL = 3;
+    int SPECS = 4;
+    int PRET = 5;
+    int STOCK = 6;
+
+    static const int NR_CARACTERISTICI = 7;
+
 
 
 public:
@@ -38,7 +48,7 @@ public:
     string getBrand() const {return brand;}
     string getModel() const {return model;}
     string getSpecs() const {return specs;}
-    string getPret() const {return to_string(pret);}
+    float getPret() const {return pret;}
     bool esteStock() const {return stock;}
 
     void setId(int newId) { id = newId; }

@@ -18,6 +18,7 @@ Componenta::Componenta(int id, string tip, string brand, string model, string sp
     this->pret = pret;
     this->stock = stock;
 
+
 }
 Componenta::~Componenta() {}
 
