@@ -14,4 +14,8 @@ add_executable(Aplicatie_gestiune_componente_PC main.cpp
         Clase/Cont.cpp
         Clase/Cont.h
         Clase/AdministrareConturi.cpp
-        Clase/AdministrareConturi.h)
+        Clase/AdministrareConturi.h
+        Clase/CumparaComponenta.cpp
+        Clase/CumparaComponenta.h
+        Clase/AdministrareCumparare.cpp
+        Clase/AdministrareCumparare.h)
