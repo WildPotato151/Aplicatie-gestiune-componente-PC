@@ -7,7 +7,7 @@
 #include <string>
 #include <vector>
 
-using namespace std;\
+using namespace std;
 
 CumparaComponenta::CumparaComponenta(int idCumparare, int idComponenta, string nume, string prenume, string email, string nr_telefon, string adresa) {
     this-> idCumparare = idCumparare;
