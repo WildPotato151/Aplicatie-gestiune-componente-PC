@@ -6,6 +6,8 @@
 #define ADMINISTRARECUMPARARE_H
 
 #include "CumparaComponenta.h"
+#include "CumparaComponenta.cpp"
+
 
 #include <iostream>
 #include <string>

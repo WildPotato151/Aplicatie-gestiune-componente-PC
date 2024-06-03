@@ -3,13 +3,20 @@
 //
 
 #include "CumparaComponenta.h"
+#include "AdministrareCumparare.h"
+#include "Client.h"
+#include "Validari.h"
 #include <iostream>
 #include <string>
 #include <vector>
 
+
 using namespace std;
 
-CumparaComponenta::CumparaComponenta(int idCumparare, int idComponenta, string nume, string prenume, string email, string nr_telefon, string adresa) {
+CumparaComponenta::CumparaComponenta(int idCumparare, int idComponenta, string nume, string prenume, string email, string nr_telefon, string adresa)
+    :Client(nume, prenume, email, nr_telefon, adresa)
+
+{
     this-> idCumparare = idCumparare;
     this->idComponenta = idComponenta;
 }

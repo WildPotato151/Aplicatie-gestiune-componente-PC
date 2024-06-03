@@ -9,6 +9,7 @@
 #include <string>
 #include "Componenta.h"
 #include "Validari.h"
+#include "CumparaComponenta.h"
 
 using namespace std;
 

@@ -4,7 +4,7 @@
 
 #include "AdministrareCumparare.h"
 
-
+#include "CumparaComponenta.h"
 #include <iostream>
 #include <fstream>
 #include <string>

@@ -1,0 +1,7 @@
+# ninja log v5
+17	2524	7387832279362545	CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/Client.cpp.obj	4f00a71007299
+17	3112	7387857761183406	CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/AdministrareCumparare.cpp.obj	f579322325696fe
+14	2527	7387832279362545	CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/Componenta.cpp.obj	9421e242b0bd4401
+147	2827	7387832282396478	CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/AdministrareConturi.cpp.obj	590db27695bfa9fb
+58	2861	7387832282732961	CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/AdministrareComponenta.cpp.obj	171387d172dade1
+140	4443	7387832298495311	CMakeFiles/Aplicatie_gestiune_componente_PC.dir/Clase/Cont.cpp.obj	3798e81112708468

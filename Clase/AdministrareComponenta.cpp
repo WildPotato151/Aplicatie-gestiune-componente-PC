@@ -126,8 +126,8 @@ vector<Componenta> AdministrareComponenta::CautaComponenta(string tip, string br
         if ((!tip.empty() && componenta.getTip() != tip) ||
             (!brand.empty() && (brandGasit.find(brandGasit)) == -1) ||
             (!model.empty() && (modelGasit.find(modelGasit)) == -1) ||
-            (pretMin > 0 && stof(componenta.getPret()) < pretMin) ||
-            (pretMax > 0 && stof(componenta.getPret()) > pretMax) ||
+            (pretMin > 0 && componenta.getPret() < pretMin) ||
+            (pretMax > 0 && componenta.getPret() > pretMax) ||
             (stock && !componenta.esteStock()) ||
             (idComponenta != -1 && componenta.getID() != idComponenta)) {
             continue;

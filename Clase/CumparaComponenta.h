@@ -30,7 +30,7 @@ private:
     int NRTELEFON = 5;
     int ADRESA = 6;
 
-    static const int NR_CARACTERISTICI = 6;
+    static const int NR_CARACTERISTICI = 7;
 
 public:
 
@@ -43,6 +43,11 @@ public:
     int getIdComponenta() const {return idComponenta;}
     string getNume() const {return nume;}
     string getPrenume() const {return prenume;}
+
+    void setIdCumparare(int id) {idCumparare = id;}
+    void setIdComponenta(int id) {idComponenta = id;}
+    void setNume(string n) { nume = n; }
+    void setPrenume(string p) { prenume = p; }
 
     string Info() const;
     string ConversieLaSir_PentruFisier();
